@@ -44,6 +44,8 @@ dftfsi      -1.0      5.2919
 ots         -1.0     10.8615
 so4         -2.0      3.6503
 tra         -1.0      1.4326
+boh4        -1.0      4.1994
+tdi         -1.0      5.4273
 # neutral    
 C4H10        0.0      0.0000
 C4F10        0.0      0.0236      
@@ -71,12 +73,14 @@ ems          0.0      5.5065
 emso         0.0      4.9310
 deso         0.0      5.0306
 mems         0.0      5.1414
+dma          0.0      4.1674
 dmf          0.0      4.3105
 dmc          0.0      3.8934
 ec           0.0      5.9471
 pc           0.0      6.0915
 gbl          0.0      5.1762
 tr0          0.0      2.8801
+hfip         0.0      2.7089
 
 DIMERS
 # m1        m2     r_COM/Å  k_sapt
@@ -118,6 +122,10 @@ Mg         pf6     2.473    0.01
 Zn         pf6     2.495    0.09
 Ca         bf4     2.335    0.07
 Mg         bf4     2.060    0.01
+Ca         boh4    2.341    0.06
+Mg         boh4    2.050    0.01
+Ca         tdi     3.035    0.05
+Mg         tdi     2.751    0.01
 # cation-neutral
 c2c1im     C4H10   3.613    0.76
 c2c1im     C6H14   3.992    0.74
@@ -178,6 +186,8 @@ Ca         gbl     3.220    0.05
 Mg         gbl     3.689    0.01
 Ca         dmf     3.901    0.05
 Mg         dmf     3.717    0.01
+Ca         hfip    2.687    0.06
+Mg         hfip    2.771    0.01
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -208,6 +218,7 @@ dmso       cl      3.962    0.37
 dme        fsi     4.583    0.73
 tol        mso     4.898    0.50
 an         tfsi    4.950    0.71
+an         pf6     5.034    0.56
 bz         oac     4.879    0.37
 bz         otf     5.858    0.64
 bz         br      4.792
@@ -253,6 +264,15 @@ dmf        cl      4.265    0.38
 dmf        bf4     4.541    0.52
 dmf        pf6     4.968    0.57
 dmf        tfsi    5.516    0.73
+dmc        boh4    4.144    0.53
+me2o       boh4    3.663    0.53
+ec         boh4    4.632    0.48
+hfip       boh4    4.020    0.47
+slflane    boh4    4.544    0.53
+dmc        tdi     5.791    0.63
+me2o       tdi     3.866    0.86
+ec         tdi     5.335    0.66
+slflane    tdi     4.125    0.75
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
@@ -282,6 +302,7 @@ meoh       actn    3.363
 urea       urea    4.317
 ch3cooh    ch3cooh 4.221
 ch3cooh    actn    3.396
+dma        dma     3.483    0.79
 dme        dme     3.856    0.84
 dmf        dmf     3.235    0.77
 dme        me2o    3.886    0.81 
@@ -305,3 +326,8 @@ dmc        dmc     3.364    0.79
 ec         ec      3.289    0.75
 pc         pc      3.614    0.74
 gbl        gbl     3.583    0.68
+hfip       hfip    4.835    0.59
+hfip       dmc     4.048    0.53
+hfip       me2o    3.663    0.53
+hfip       ec      4.908    0.90
+hfip       slflane 4.544    0.53
