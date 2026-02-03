@@ -63,6 +63,12 @@ O2    O2   15.999  -0.80   lj    2.96   0.87864
 CO2   CO   12.011   0.70   lj    3.75   0.43932
 C2O   CT   12.011  -0.22   lj    3.50   0.27614
 C3O   CT   12.011  -0.16   lj    3.50   0.27614
+# Esters - COE=OCE
+COE   C    12.011   0.49   lj    3.75   0.43932
+OCE   O    15.999  -0.41   lj    2.96   0.58576
+OSE   OS   15.999  -0.33   lj    3.00   0.50208
+CTE   CT   12.011   0.16   lj    3.50   0.27614
+HCE   HC    1.008   0.03   lj    2.48   0.10878      
 # DMSO
 SZ    SZ  32.066   0.130  lj    3.56   1.65268
 OYZ   OY  15.999  -0.420  lj    2.93   1.17152
@@ -228,6 +234,7 @@ CT  N   C    harm   123.0   292.9
 N   C   O    harm   122.9   669.4
 HC  C   N    harm   114.0   334.7
 N   C   CT   harm   116.6   585.8
+N   C   N    harm   114.2   585.8
 # Nitriles
 HC  CT  CZ   harm   108.5   292.9
 CT  CZ  NZ   harm   180.0  1255.2
@@ -293,6 +300,7 @@ CT  N   C   O    opls    0.0000   25.4770    0.0000    0.0000
 HC  C   N   CT   opls    9.6234   25.4770    0.0000    0.0000
 CT  N   C   CT   opls    9.6234   25.4770    0.0000    0.0000
 HC  CT  C   N    opls    0.0000    0.0000    0.0000    0.0000
+CT  N   C   N    opls   19.2469    0.0000    0.0000    0.0000
 # Nitriles
 HC  CT  CZ  NZ   opls    0.0000    0.0000    0.0000    0.0000
 #BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686

@@ -76,11 +76,13 @@ mems         0.0      5.1414
 dma          0.0      4.1674
 dmf          0.0      4.3105
 dmc          0.0      3.8934
+tmu          0.0      4.2798
 ec           0.0      5.9471
 pc           0.0      6.0915
 gbl          0.0      5.1762
 tr0          0.0      2.8801
 hfip         0.0      2.7089
+ma           0.0      1.9592
 
 DIMERS
 # m1        m2     r_COM/Å  k_sapt
@@ -264,6 +266,7 @@ dmf        cl      4.265    0.38
 dmf        bf4     4.541    0.52
 dmf        pf6     4.968    0.57
 dmf        tfsi    5.516    0.73
+dma        tfsi    4.920    0.71
 dmc        boh4    4.144    0.53
 me2o       boh4    3.663    0.53
 ec         boh4    4.632    0.48
@@ -305,6 +308,7 @@ ch3cooh    actn    3.396
 dma        dma     3.483    0.79
 dme        dme     3.856    0.84
 dmf        dmf     3.235    0.77
+tmu        tmu     3.781    0.83
 dme        me2o    3.886    0.81 
 an         an      3.403    0.69
 bz         bz      3.800    0.95
@@ -315,6 +319,7 @@ h2o        h2o     2.780
 thf        thf     3.834    0.81
 thp        thp     4.821    0.86
 dox        dox     3.816    0.77
+ma         ma      5.141    0.80
 slflane    slflane 4.709    0.69
 3mesl      3mesl   4.503    0.61
 ems        ems     4.379    0.58
